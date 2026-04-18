@@ -1,0 +1,29 @@
+.features_sec {
+
+    .fet-item {
+        margin-top: 60px;
+        margin-bottom: 25px;
+        position: relative;
+        height: calc(100% - 90px ) !important;
+        .fet-icon {
+            width: 120px;
+            height: 120px;
+            margin-top: -60px;
+            margin-bottom: 1.5rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: #FFFFFF;
+            border-radius: 120px;
+            transition: .5s;
+        }
+        &:hover {
+            .fet-icon {
+                background-color: #202020;
+            }
+
+        }
+    }
+
+
+}

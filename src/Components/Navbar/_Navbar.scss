@@ -1,0 +1,40 @@
+.navs_container {
+    .top_nav {
+        background: linear-gradient(180deg, #2d2d2d 0%, #1a1a1a 100%);
+        border-bottom: 1px solid rgba(183, 141, 101, 0.28);
+        font-size: 0.875rem;
+        padding: 10px 0;
+
+        .contactData {
+            color: #fff ;
+            font-size: 15px;
+            svg {
+                color: var(--primary) !important;
+            }
+        }
+
+
+    }
+
+
+    .navbar {
+        .logo {
+            width: 150px;
+            object-fit: contain;
+        }
+
+        .nav-link {
+            padding-bottom: 10px;
+            position: relative;
+            border-bottom: 1px solid transparent;
+            font-weight: 600;
+            font-size: 18px;
+            &.active {
+                border-bottom-color: var(--primary);
+                color: var(--primary) !important;
+            }
+        }
+    }
+
+
+}
