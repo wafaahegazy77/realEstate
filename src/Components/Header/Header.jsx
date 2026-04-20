@@ -16,7 +16,7 @@ const Header = () => {
                         <div className="p text-white fsz-20 mt-4 ">
                             أعمال هليكوبتر لسطح خرساني ناعم ومستوي، وحلول إنترلوك وبندورة بأحدث التصاميم للمساحات الخارجية مع سهولة الصيانة.
                         </div>
-                        <a href="#" className='butn primary_border_butn px-5 mx-auto mt-5'>
+                        <a href="#" className='butn primary_butn px-5 mx-auto mt-5'>
                             <span>تواصل معنا</span>
                         </a>
                     </div>

@@ -2222,4 +2222,8 @@ form .form-check-input {
 
 .dir_ltr {
   direction: ltr;
+}
+
+[type=email], [type=number], [type=tel], [type=url] {
+  direction: inherit !important;
 }/*# sourceMappingURL=style.css.map */

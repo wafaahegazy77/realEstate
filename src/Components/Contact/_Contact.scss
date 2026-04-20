@@ -1,0 +1,39 @@
+.contact_sec{
+
+    .contact_items .contact-item {
+        .icon-box {
+            background-color: #F8F8F8 ;
+            width: 65px;
+            height: 65px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary);
+            font-size: 25px;
+            border-radius: 50px;
+        }
+        .contact-info {
+            .label {
+                color: #888;
+            }
+        }
+    }
+
+    .contact-form {
+        input , select {
+            height: 60px !important;
+        }
+        .form-control {
+            padding-top: 0.5rem;
+            padding-inline-start: 1rem;
+            // border-color: #eee;
+            font-size: 16px;
+            font-weight: 500;
+            border-radius: 50px;
+        }
+        textarea {
+            padding-top: 15px !important;
+        }
+    }
+
+}

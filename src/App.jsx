@@ -9,6 +9,9 @@ import Features from "./Components/Features/Features";
 import About from "./Components/About/About";
 import Services from "./Components/Services/Services";
 import WhyUs from "./Components/About/WhyUs";
+import Projects from "./Components/Projects/Projects"; 
+import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 
 // import js files 
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
@@ -23,6 +26,9 @@ function App() {
             <About />
             <Services />
             <WhyUs />
+            <Projects />
+            <Contact />
+            <Footer/>
         </>
     )
 }
